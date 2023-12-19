@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "positionings",
+  "info": {
+    "singularName": "positioning",
+    "pluralName": "positionings",
+    "displayName": "Positioning",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "mission_title": {
+      "type": "string"
+    },
+    "mission_description": {
+      "type": "blocks"
+    },
+    "vision_title": {
+      "type": "string"
+    },
+    "vision_description": {
+      "type": "blocks"
+    },
+    "bullets": {
+      "type": "blocks"
+    }
+  }
+}
