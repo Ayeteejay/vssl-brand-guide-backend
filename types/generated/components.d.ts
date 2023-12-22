@@ -93,6 +93,18 @@ export interface CardsPhotographyCards extends Schema.Component {
   };
 }
 
+export interface CardsPositioningCards extends Schema.Component {
+  collectionName: 'components_cards_positioning_cards';
+  info: {
+    displayName: 'Positioning Cards';
+    description: '';
+  };
+  attributes: {
+    title: Attribute.String;
+    description: Attribute.Text;
+  };
+}
+
 export interface CardsRuleCards extends Schema.Component {
   collectionName: 'components_cards_rule_cards';
   info: {
@@ -129,6 +141,7 @@ declare module '@strapi/types' {
       'cards.logo-card': CardsLogoCard;
       'cards.persona-cards': CardsPersonaCards;
       'cards.photography-cards': CardsPhotographyCards;
+      'cards.positioning-cards': CardsPositioningCards;
       'cards.rule-cards': CardsRuleCards;
       'cards.typography-cards': CardsTypographyCards;
     }

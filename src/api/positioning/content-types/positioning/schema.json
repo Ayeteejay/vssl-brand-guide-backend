@@ -18,20 +18,13 @@
     "description": {
       "type": "blocks"
     },
-    "mission_title": {
-      "type": "string"
-    },
-    "mission_description": {
-      "type": "blocks"
-    },
-    "vision_title": {
-      "type": "string"
-    },
-    "vision_description": {
-      "type": "blocks"
-    },
     "bullets": {
       "type": "blocks"
+    },
+    "positioning": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.positioning-cards"
     }
   }
 }

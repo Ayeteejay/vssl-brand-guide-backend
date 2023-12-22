@@ -28,6 +28,16 @@
         "videos",
         "audios"
       ]
+    },
+    "layout_image_magnified": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
